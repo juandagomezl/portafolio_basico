@@ -1,0 +1,50 @@
+@font-face {
+   font-family: golo;
+   src: url("");
+   font-style: normal;
+   font-weight: normal;
+}
+
+:root{
+   --gray40: #212121;
+   --gray20: #616161;
+}
+
+html{
+   font-size: 16px;
+}
+
+body {
+   color: var(--gray40);
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+   color: var(--gray40);
+}
+
+header{
+   font-size: 14px;
+   color: var(--gray20);
+}
+
+header a{
+   color: var(--gray20);
+   text-decoration: none;
+}
+
+header a:hover{
+   color: var(--gray40);
+}
+
+nav details summary{
+   font-weight: bold;
+}
+
+h1{
+   font-size: 60px;
+}
+
+h2{
+   font-size: 45px;
+}
